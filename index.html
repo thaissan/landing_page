@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <span class="logo">Universe</span>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="info-home">
+                <p class="chamada">Bem-Vindos a um Novo Universo</p>
+                <h1>Diferentes mundos para <br> diferentes pessoas</h1>
+                <p>Lorem ipsum dolor sit amet. In fugiat fugit sit excepturi 
+                    consequatur cum sequi vero qui vero voluptatem et unde dicta 
+                    aut consequatur adipisci ut Quis odio.</p>
+                <button>Explore</button>
+            </div>
+
+            <img src="/assets/img/astronauta.svg" alt="Imagem animada um capacete de astronauta no espaço." class="home">
+        </section>
+
+        <section id="sobre"></section>
+
+        <section id="contato">
+            <div class="info-contato">
+                <h2>Entre em Contato</h2>
+                <p>Lorem ipsum dolor sit amet. In fugiat fugit sit excepturi consequatur cum sequi vero qui vero voluptatem et unde dicta aut consequatur adipisci ut Quis odio.</p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/thais-cavadas/" target="_blank"><ion-icon name="logo-linkedin" class="social"></ion-icon></a></li>
+                    <li><a href="https://github.com/thaissan" target="_blank"><ion-icon name="logo-github" class="social"></ion-icon></a></li>
+                </ul>
+            </div>
+
+            <form>
+                <label>Nome:</label>
+                <input type="text" required>
+
+                <label>Email:</label>
+                <input type="email" required>
+
+                <label>Assunto:</label>
+                <input type="text" required>
+
+                <label>Mensagem:</label>
+                <textarea rows="3" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito com ❤ por Thaís Santos - 2024</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
